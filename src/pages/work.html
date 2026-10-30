@@ -1,0 +1,113 @@
+<!-- title: Our Work — Hadon for business -->
+<!-- description: Case studies: a B2B SaaS analytics portal, a real-time Southeast Asian dispatch platform, and an enterprise design system. Real software, shipped on time. -->
+<!-- nav: work -->
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow reveal">Case studies &amp; portfolio</span>
+    <h1 class="h1 reveal d1">Real software. Shipped on time. <span class="soft">Measurable impact.</span></h1>
+    <p class="lede reveal d2">Three engagements, three kinds of problem: performance, real-time scale, and design consistency across products.</p>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <article class="study" id="analytics">
+    <div class="study-head reveal">
+      <h2 class="h2">Modern B2B SaaS analytics portal.</h2>
+      <p class="study-index">01 / 03</p>
+    </div>
+    <div class="study-figure reveal"><!-- @include visual-analytics --></div>
+    <dl class="profile reveal">
+      <div><dt>Client profile</dt><dd>US-based B2B financial software startup</dd></div>
+      <div><dt>Project type</dt><dd>Web application redesign &amp; fullstack optimization</dd></div>
+      <div><dt>Engagement</dt><dd>1 Senior Fullstack Developer + 1 Senior Product Designer (6 weeks)</dd></div>
+      <div><dt>Tech stack</dt><dd>Next.js (App Router), TypeScript, Tailwind CSS, PostgreSQL, Prisma, Chart.js</dd></div>
+    </dl>
+    <div class="split study-body">
+      <div class="reveal">
+        <h3 class="h4">The problem</h3>
+        <p class="body">The client had built an early MVP that suffered from significant performance bottlenecks. Complex financial queries took 4.5 seconds to render, data visualizations broke on mobile screens, and new enterprise users abandoned the onboarding process due to confusing navigation.</p>
+      </div>
+      <div class="reveal d1">
+        <h3 class="h4">The Hadon solution</h3>
+        <ul class="who">
+          <li><b>Product designer</b><p>Restructured 28+ screens into a cohesive 12-column layout in Figma. Built high-density financial tables with custom filtering, column reordering, and instant CSV export.</p></li>
+          <li><b>Senior developer</b><p>Migrated the frontend to Next.js App Router with React Server Components. Implemented server-side caching and optimized PostgreSQL queries using database indexes and connection pooling.</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="results-row reveal">
+      <div><b>720ms</b><span>Page load time, down from 4.5s</span></div>
+      <div><b>+48%</b><span>Increase in daily active user retention</span></div>
+      <div><b>3.5x</b><span>Improvement in complex query response times</span></div>
+    </div>
+  </article>
+
+  <article class="study" id="dispatch">
+    <div class="study-head reveal">
+      <h2 class="h2">Scalable SEA on-demand logistics platform.</h2>
+      <p class="study-index">02 / 03</p>
+    </div>
+    <div class="study-figure reveal"><!-- @include visual-dispatch --></div>
+    <dl class="profile reveal">
+      <div><dt>Client profile</dt><dd>Southeast Asian regional logistics &amp; mobility startup</dd></div>
+      <div><dt>Project type</dt><dd>Real-time dispatch engine &amp; operations control center</dd></div>
+      <div><dt>Engagement</dt><dd>Dedicated Product Pod (8 weeks)</dd></div>
+      <div><dt>Tech stack</dt><dd>Node.js, TypeScript, React, WebSockets, Redis, PostgreSQL, Figma</dd></div>
+    </dl>
+    <div class="split study-body">
+      <div class="reveal">
+        <h3 class="h4">The problem</h3>
+        <p class="body">A fast-growing delivery platform in Singapore and Malaysia was struggling with real-time driver dispatch. Dispatchers experienced multi-second latency spikes during peak hours, causing misallocated orders and customer complaints.</p>
+      </div>
+      <div class="reveal d1">
+        <h3 class="h4">The Hadon solution</h3>
+        <ul class="who">
+          <li><b>Product designer</b><p>Designed an operational &ldquo;air-traffic control&rdquo; UI in Figma featuring real-time map clustering, urgent order alerts, and 1-click manual driver reassignment.</p></li>
+          <li><b>Senior developer</b><p>Built an event-driven Node.js backend utilizing Redis pub/sub and WebSockets to push live location updates to thousands of connected clients simultaneously.</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="results-row reveal">
+      <div><b>&lt;100ms</b><span>Latency for real-time dispatch updates</span></div>
+      <div><b>25,000+</b><span>Daily booking transactions handled without performance degradation</span></div>
+      <div><b>99.98%</b><span>System uptime across peak holiday delivery windows</span></div>
+    </div>
+  </article>
+
+  <article class="study" id="design-system">
+    <div class="study-head reveal">
+      <h2 class="h2">Enterprise design system &amp; internal ops portal.</h2>
+      <p class="study-index">03 / 03</p>
+    </div>
+    <div class="study-figure reveal"><!-- @include visual-system --></div>
+    <dl class="profile reveal">
+      <div><dt>Client profile</dt><dd>Growing tech scale-up (multi-product ecosystem)</dd></div>
+      <div><dt>Project type</dt><dd>Design system infrastructure &amp; internal tooling</dd></div>
+      <div><dt>Engagement</dt><dd>1 Senior Product Designer + 1 Senior Fullstack Dev (4 weeks)</dd></div>
+      <div><dt>Tech stack</dt><dd>Figma Tokens, Storybook, React, Tailwind CSS, TypeScript</dd></div>
+    </dl>
+    <div class="split study-body">
+      <div class="reveal">
+        <h3 class="h4">The problem</h3>
+        <p class="body">With 3 separate web products managed by different teams, the client suffered from visual inconsistency, duplicated engineering effort, and 3-week feature sprint cycles just to push minor UI updates.</p>
+      </div>
+      <div class="reveal d1">
+        <h3 class="h4">The Hadon solution</h3>
+        <ul class="who">
+          <li><b>Design system</b><p>Created a unified design system in Figma encompassing 120+ modular components with comprehensive state variants (hover, active, disabled, loading).</p></li>
+          <li><b>Component library</b><p>Translated Figma design tokens directly into a shared private React/Tailwind component library documented in Storybook.</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="results-row reveal">
+      <div><b>60%</b><span>Reduction in frontend engineering delivery time</span></div>
+      <div><b>3 wks &rarr; 8 days</b><span>Feature release cycles accelerated</span></div>
+      <div><b>Zero</b><span>UI drift across all 3 web properties</span></div>
+    </div>
+  </article>
+
+</div>
+
+<!-- @include closing -->

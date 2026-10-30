@@ -1,0 +1,94 @@
+<!-- title: Contact — Hadon for business -->
+<!-- description: Tell us about your product. Whether you need a senior engineer starting Monday or a complete product build, we reply in under two hours during business hours. -->
+<!-- nav: contact -->
+
+<section class="page-hero" style="padding-bottom:clamp(48px,6vw,72px)">
+  <div class="wrap">
+    <span class="eyebrow reveal">Contact &amp; discovery</span>
+    <h1 class="h1 reveal d1">Let&rsquo;s talk about your product.</h1>
+    <p class="lede reveal d2">Whether you need a dedicated senior engineer starting this Monday or want to scope a complete product build, we&rsquo;re ready to help.</p>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0">
+  <div class="wrap contact-grid">
+    <div class="reveal" id="inquiry">
+      <form class="form" novalidate>
+        <div class="row">
+          <div class="field">
+            <label for="f-name">Full name</label>
+            <input class="input" id="f-name" name="name" type="text" placeholder="Jane Doe" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-email">Work email</label>
+            <input class="input" id="f-email" name="email" type="email" placeholder="jane@company.com" autocomplete="email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="f-company">Company / startup name</label>
+            <input class="input" id="f-company" name="company" type="text" placeholder="Acme Technologies" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="f-interest">What are you looking for?</label>
+            <select class="select" id="f-interest" name="interest" required>
+              <option value="" disabled selected>Select one</option>
+              <option value="engineer">Dedicated Fullstack Engineer</option>
+              <option value="designer">Dedicated Product Designer</option>
+              <option value="pod">Full Product Pod (Dev + Designer + Ops)</option>
+              <option value="mvp">Turnkey MVP Build (Fixed Scope)</option>
+              <option value="ops">Sales Operations / Virtual Assistant</option>
+<!-- @hide-start -->
+              <option value="agency">Agency Subcontracting Partnership</option>
+<!-- @hide-end -->
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <fieldset>
+            <legend>Target start date</legend>
+            <div class="segmented">
+              <input type="radio" id="s-now" name="start" value="Immediate (within 48h)" checked><label for="s-now">Immediate (within 48h)</label>
+              <input type="radio" id="s-two" name="start" value="Next 2 weeks"><label for="s-two">Next 2 weeks</label>
+              <input type="radio" id="s-exp" name="start" value="Exploring"><label for="s-exp">Exploring</label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="field">
+          <label for="f-brief">Brief project description</label>
+          <textarea class="textarea" id="f-brief" name="brief" placeholder="Tell us a little about your tech stack and requirements..."></textarea>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px">
+          <button class="btn btn-primary" type="submit">Send inquiry <span class="arr">&rarr;</span></button>
+          <p class="form-note" data-form-error hidden>Please add your name, a work email and what you&rsquo;re looking for.</p>
+        </div>
+      </form>
+
+      <div class="form-success" role="status" tabindex="-1">
+        <h2>Thank you. We&rsquo;ll be in touch shortly.</h2>
+        <p>Your inquiry is on its way to bils@hadonlabs.com. We reply in under two hours during business hours.</p>
+        <div class="actions">
+          <a class="btn btn-ghost" href="index.html">Back to home</a>
+        </div>
+      </div>
+    </div>
+
+    <aside>
+      <div class="aside-card reveal d1">
+        <h2>Prefer a quicker note?</h2>
+        <p>Leave your email and we&rsquo;ll get back to you. No pushy sales pitch—just a direct reply.</p>
+        <a class="btn btn-primary" href="#" data-contact>Contact us</a>
+      </div>
+      <div class="aside-card reveal d2">
+        <dl>
+          <div><dt>Email</dt><dd><a href="mailto:bils@hadonlabs.com">bils@hadonlabs.com</a></dd></div>
+          <div><dt>WhatsApp / Telegram</dt><dd>Available upon request</dd></div>
+<!-- @hide-start -->
+          <div><dt>Response time</dt><dd>Under 2 hours during business hours</dd></div>
+<!-- @hide-end -->
+          <div><dt>Hubs</dt><dd>Engineering HQ, India<br>Operations Hub, Manila</dd></div>
+        </dl>
+      </div>
+    </aside>
+  </div>
+</section>
