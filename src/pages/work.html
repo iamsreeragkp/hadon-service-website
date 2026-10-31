@@ -1,110 +1,114 @@
 <!-- title: Our Work — Hadon for business -->
-<!-- description: Case studies: a B2B SaaS analytics portal, a real-time Southeast Asian dispatch platform, and an enterprise design system. Real software, shipped on time. -->
+<!-- description: Case studies: an AI-powered bookkeeping platform, an AI-powered tenant management platform, and a mobile device security product design. Real software, shipped on time. -->
 <!-- nav: work -->
 
 <section class="page-hero">
   <div class="wrap">
     <span class="eyebrow reveal">Case studies &amp; portfolio</span>
     <h1 class="h1 reveal d1">Real software. Shipped on time. <span class="soft">Measurable impact.</span></h1>
-    <p class="lede reveal d2">Three engagements, three kinds of problem: performance, real-time scale, and design consistency across products.</p>
+    <p class="lede reveal d2">Three engagements, three kinds of problem: AI-driven automation, AI-assisted property operations, and product design for sensitive, high-stakes moments.</p>
   </div>
 </section>
 
 <div class="wrap">
 
-  <article class="study" id="analytics">
+  <article class="study" id="bookkeeping">
     <div class="study-head reveal">
-      <h2 class="h2">Modern B2B SaaS analytics portal.</h2>
+      <h2 class="h2">AI-powered bookkeeping &amp; financial management platform.</h2>
       <p class="study-index">01 / 03</p>
     </div>
-    <div class="study-figure reveal"><!-- @include visual-analytics --></div>
+    <div class="study-figure reveal"><!-- @include visual-bookkeeping --></div>
     <dl class="profile reveal">
-      <div><dt>Client profile</dt><dd>US-based B2B financial software startup</dd></div>
-      <div><dt>Project type</dt><dd>Web application redesign &amp; fullstack optimization</dd></div>
-      <div><dt>Engagement</dt><dd>1 Senior Fullstack Developer + 1 Senior Product Designer (6 weeks)</dd></div>
-      <div><dt>Tech stack</dt><dd>Next.js (App Router), TypeScript, Tailwind CSS, PostgreSQL, Prisma, Chart.js</dd></div>
+      <div><dt>Client profile</dt><dd>FinTech product for small businesses &amp; independent entrepreneurs</dd></div>
+      <div><dt>Project type</dt><dd>AI bookkeeping platform: web &amp; mobile applications</dd></div>
+      <div><dt>Platforms</dt><dd>Web application + cross-platform mobile app</dd></div>
+      <div><dt>Tech stack</dt><dd>React, React Native, Node.js (Express), PostgreSQL, OpenAI API, OCR</dd></div>
     </dl>
     <div class="split study-body">
       <div class="reveal">
         <h3 class="h4">The problem</h3>
-        <p class="body">The client had built an early MVP that suffered from significant performance bottlenecks. Complex financial queries took 4.5 seconds to render, data visualizations broke on mobile screens, and new enterprise users abandoned the onboarding process due to confusing navigation.</p>
+        <p class="body">Small business owners still run their books on spreadsheets and paper receipts. Entering every transaction by hand is slow, income and expenses get miscategorised, records end up scattered across tools, and preparing reports for tax time takes far more effort than it should.</p>
       </div>
       <div class="reveal d1">
         <h3 class="h4">The Hadon solution</h3>
         <ul class="who">
-          <li><b>Product designer</b><p>Restructured 28+ screens into a cohesive 12-column layout in Figma. Built high-density financial tables with custom filtering, column reordering, and instant CSV export.</p></li>
-          <li><b>Senior developer</b><p>Migrated the frontend to Next.js App Router with React Server Components. Implemented server-side caching and optimized PostgreSQL queries using database indexes and connection pooling.</p></li>
+          <li><b>Receipt to ledger, automated</b><p>Users upload income and expense receipts from the web or mobile app. OCR extracts the amount, date, merchant and other fields, and OpenAI models classify each transaction as income or expense and assign a category such as sales revenue, office expenses or transportation.</p></li>
+          <li><b>Ledger &amp; reporting</b><p>Classified transactions are written to structured digital ledgers in PostgreSQL. At the end of each reporting cycle the platform consolidates them into financial reports that support bookkeeping and tax preparation.</p></li>
+          <li><b>Web &amp; mobile</b><p>React and React Native deliver one consistent experience across platforms, backed by a Node.js and Express API that handles authentication, receipt workflows and the AI processing layer.</p></li>
         </ul>
       </div>
     </div>
     <div class="results-row reveal">
-      <div><b>720ms</b><span>Page load time, down from 4.5s</span></div>
-      <div><b>+48%</b><span>Increase in daily active user retention</span></div>
-      <div><b>3.5x</b><span>Improvement in complex query response times</span></div>
+      <div><b>5 steps</b><span>Receipt upload to financial report, one automated workflow</span></div>
+      <div><b>Web + Mobile</b><span>One ledger, available on both platforms</span></div>
+      <div><b>OCR + AI</b><span>Unstructured receipts turned into classified, structured records</span></div>
     </div>
   </article>
 
-  <article class="study" id="dispatch">
+  <article class="study" id="tenant">
     <div class="study-head reveal">
-      <h2 class="h2">Scalable SEA on-demand logistics platform.</h2>
+      <h2 class="h2">AI-powered smart tenant management platform.</h2>
       <p class="study-index">02 / 03</p>
     </div>
-    <div class="study-figure reveal"><!-- @include visual-dispatch --></div>
+    <div class="study-figure reveal"><!-- @include visual-tenant --></div>
     <dl class="profile reveal">
-      <div><dt>Client profile</dt><dd>Southeast Asian regional logistics &amp; mobility startup</dd></div>
-      <div><dt>Project type</dt><dd>Real-time dispatch engine &amp; operations control center</dd></div>
-      <div><dt>Engagement</dt><dd>Dedicated Product Pod (8 weeks)</dd></div>
-      <div><dt>Tech stack</dt><dd>Node.js, TypeScript, React, WebSockets, Redis, PostgreSQL, Figma</dd></div>
+      <div><dt>Client profile</dt><dd>PropTech product for property owners, facility managers &amp; residential and commercial communities</dd></div>
+      <div><dt>Project type</dt><dd>Tenant experience &amp; property management platform with an AI support agent</dd></div>
+      <div><dt>Platforms</dt><dd>Web application + cross-platform mobile app</dd></div>
+      <div><dt>Tech stack</dt><dd>React, React Native, Node.js (Express), PostgreSQL, OpenAI APIs</dd></div>
     </dl>
     <div class="split study-body">
       <div class="reveal">
         <h3 class="h4">The problem</h3>
-        <p class="body">A fast-growing delivery platform in Singapore and Malaysia was struggling with real-time driver dispatch. Dispatchers experienced multi-second latency spikes during peak hours, causing misallocated orders and customer complaints.</p>
+        <p class="body">Property teams were juggling disconnected channels. Tenants reached managers through scattered messages, maintenance requests were categorised, prioritised and assigned by hand, shared amenities had no organised booking, and there was no single place to run community events or keep residents engaged.</p>
       </div>
       <div class="reveal d1">
         <h3 class="h4">The Hadon solution</h3>
         <ul class="who">
-          <li><b>Product designer</b><p>Designed an operational &ldquo;air-traffic control&rdquo; UI in Figma featuring real-time map clustering, urgent order alerts, and 1-click manual driver reassignment.</p></li>
-          <li><b>Senior developer</b><p>Built an event-driven Node.js backend utilizing Redis pub/sub and WebSockets to push live location updates to thousands of connected clients simultaneously.</p></li>
+          <li><b>AI ticket agent</b><p>Tenants describe an issue in plain language. An OpenAI-powered agent understands the request, categorises it (plumbing, electrical, security, housekeeping and more), assesses priority, structures it into a ticket and helps route it to the right team. Admins can review and approve AI classifications on sensitive or high-priority issues.</p></li>
+          <li><b>One tenant app</b><p>Facility reservations, community social feeds and announcements, event creation and registration, and support tickets, all in one web and mobile experience.</p></li>
+          <li><b>Admin console</b><p>Property managers get a single view of tenants, bookings, events and tickets, with a Node.js and Express API and PostgreSQL data layer behind it.</p></li>
         </ul>
       </div>
     </div>
     <div class="results-row reveal">
-      <div><b>&lt;100ms</b><span>Latency for real-time dispatch updates</span></div>
-      <div><b>25,000+</b><span>Daily booking transactions handled without performance degradation</span></div>
-      <div><b>99.98%</b><span>System uptime across peak holiday delivery windows</span></div>
+      <div><b>5 modules</b><span>Tickets, reservations, community, events and tenant admin in one platform</span></div>
+      <div><b>Web + Mobile</b><span>Tenant app and admin console on both platforms</span></div>
+      <div><b>7 steps</b><span>From tenant message to tracked ticket, AI-assisted</span></div>
     </div>
   </article>
 
-  <article class="study" id="design-system">
+  <article class="study" id="device-security">
     <div class="study-head reveal">
-      <h2 class="h2">Enterprise design system &amp; internal ops portal.</h2>
+      <h2 class="h2">Designing a mobile device security &amp; protection platform.</h2>
       <p class="study-index">03 / 03</p>
     </div>
-    <div class="study-figure reveal"><!-- @include visual-system --></div>
+    <div class="study-figure reveal"><!-- @include visual-device --></div>
     <dl class="profile reveal">
-      <div><dt>Client profile</dt><dd>Growing tech scale-up (multi-product ecosystem)</dd></div>
-      <div><dt>Project type</dt><dd>Design system infrastructure &amp; internal tooling</dd></div>
-      <div><dt>Engagement</dt><dd>1 Senior Product Designer + 1 Senior Fullstack Dev (4 weeks)</dd></div>
-      <div><dt>Tech stack</dt><dd>Figma Tokens, Storybook, React, Tailwind CSS, TypeScript</dd></div>
+      <div><dt>Client profile</dt><dd>Digital safety product for device owners and second-hand mobile retailers</dd></div>
+      <div><dt>Project type</dt><dd>Product &amp; UX design for an IMEI-based security and theft-reporting platform</dd></div>
+      <div><dt>Platforms</dt><dd>Android mobile application + web platform</dd></div>
+      <div><dt>Tech stack</dt><dd>React, React Native, Firebase, Cloud Firestore</dd></div>
     </dl>
     <div class="split study-body">
       <div class="reveal">
-        <h3 class="h4">The problem</h3>
-        <p class="body">With 3 separate web products managed by different teams, the client suffered from visual inconsistency, duplicated engineering effort, and 3-week feature sprint cycles just to push minor UI updates.</p>
+        <h3 class="h4">The design challenge</h3>
+        <p class="body">Device security is a stressful, high-stakes subject for non-technical people. Theft victims need to report quickly and with confidence, owners need to see their protection status at a glance, and second-hand retailers need an answer they can trust in seconds. Three audiences with different needs had to fit into one product, without asking anyone to understand IMEI numbers or security jargon.</p>
       </div>
       <div class="reveal d1">
-        <h3 class="h4">The Hadon solution</h3>
+        <h3 class="h4">The Hadon design approach</h3>
         <ul class="who">
-          <li><b>Design system</b><p>Created a unified design system in Figma encompassing 120+ modular components with comprehensive state variants (hover, active, disabled, loading).</p></li>
-          <li><b>Component library</b><p>Translated Figma design tokens directly into a shared private React/Tailwind component library documented in Storybook.</p></li>
+          <li><b>Simplicity, clarity, trust</b><p>Three principles guided every screen: no technical knowledge required, essential status always visible, and predictable navigation with clear confirmation steps for sensitive moments.</p></li>
+          <li><b>Three journeys</b><p>The owner experience puts registration and protection status first. The theft-report flow breaks a stressful task into guided steps with structured forms and clear next actions. The retailer flow returns an IMEI verification result that reads in seconds.</p></li>
+          <li><b>Visual language</b><p>Clean layouts, strong hierarchy, consistent type and spacing, and distinct status treatments for protected, pending and reported-stolen devices, built from reusable components across mobile and web.</p></li>
+          <li><b>Error prevention</b><p>Input validation, confirmation steps and meaningful feedback reduce incorrect submissions. Verification results are labelled as based on platform records, never as a guarantee of ownership.</p></li>
         </ul>
       </div>
     </div>
     <div class="results-row reveal">
-      <div><b>60%</b><span>Reduction in frontend engineering delivery time</span></div>
-      <div><b>3 wks &rarr; 8 days</b><span>Feature release cycles accelerated</span></div>
-      <div><b>Zero</b><span>UI drift across all 3 web properties</span></div>
+      <div><b>3 journeys</b><span>Device owner, theft reporting and retailer verification, each designed for its user</span></div>
+      <div><b>Android + Web</b><span>One consistent experience across mobile and web</span></div>
+      <div><b>3 principles</b><span>Simplicity, clarity and trust applied to every screen</span></div>
     </div>
   </article>
 
